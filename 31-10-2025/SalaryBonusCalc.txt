@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment_
+{
+    internal class SalaryCal
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter your salary: ");
+            double salary=Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Enter your years of service: ");
+            int years=Convert.ToInt32(Console.ReadLine());
+
+            double bonusPercentage;
+
+            if(years>10)
+            {
+                bonusPercentage = 20;
+            }
+            else if(years>=5)
+            {
+                bonusPercentage = 10;
+            }
+            else
+            {
+                bonusPercentage = 5;
+            }
+
+            double bonusAmt = (bonusPercentage / 100) * salary;
+            double TotalSalary = salary + bonusAmt;
+
+            Console.WriteLine($"Years of service: {years} \nBonus Percentage: {bonusPercentage} \nTotal Salary with Bonus: {TotalSalary}");
+
+            Console.ReadLine();
+        }
+    }
+}

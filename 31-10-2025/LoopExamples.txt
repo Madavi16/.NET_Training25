@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LoopExamples
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            for(int i=0;i<numbers.Length;i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            int j = 10;
+            while(j<=20)
+            {
+                Console.WriteLine(j);
+                j++;
+            }
+
+            int k = 0;
+            do
+            {
+                Console.WriteLine(k);
+                k++;
+            } while (k <= 25);
+
+            string[] colors = { "Black", "White", "Red", "Green", "Blue", "Yellow" };
+            foreach(string color in colors)
+            {
+                Console.WriteLine(color);
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
