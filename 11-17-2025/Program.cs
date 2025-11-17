@@ -70,13 +70,19 @@ namespace Employee_Mangement_System
             Console.WriteLine("Employees with Salary>50000: ");
             displayDelegate(highSalary);
 
+            Console.WriteLine("\n -------------------------------------- \n");
+
             var findDept = employees.FindAll(e=>e.Department == "IT");
             Console.WriteLine("\nEmployees who works in IT Department: ");
             displayDelegate(findDept);
 
+            Console.WriteLine("\n -------------------------------------- \n");
+
             var experience5 = employees.FindAll(e => e.Experience > 5);
             Console.WriteLine("\nEmployess with experience more than 5 years: ");
             displayDelegate(experience5);
+
+            Console.WriteLine("\n -------------------------------------- \n");
 
             var nameStartsA=employees.FindAll(e => e.Name.StartsWith("A"));
             Console.WriteLine("\nEmployees whose name starts with A: ");
@@ -89,11 +95,15 @@ namespace Employee_Mangement_System
             Console.WriteLine("Employees sorted by Name (A-Z): ");
             displayDelegate(sortByName);
 
+            Console.WriteLine("\n -------------------------------------- \n");
+
             var sortBySalary=new List<Employee>(employees);
             sortBySalary.Sort((e1, e2) => e2.Salary.CompareTo(e1.Salary));
             Console.WriteLine("\nEmployess sorted by salary (High - Low): ");
             displayDelegate(sortBySalary);
-            
+
+            Console.WriteLine("\n -------------------------------------- \n");
+
             var sortByExperience =new List<Employee>(employees);
             sortByExperience.Sort((e1,e2)=>e1.Experience.CompareTo(e2.Experience));
             Console.WriteLine("\nEmployees sorted by Experience (Low - High): ");
