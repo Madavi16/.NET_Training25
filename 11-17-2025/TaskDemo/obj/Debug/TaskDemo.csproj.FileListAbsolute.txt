@@ -1,0 +1,8 @@
+C:\Users\madavir\source\repos\TaskDemo\bin\Debug\TaskDemo.exe.config
+C:\Users\madavir\source\repos\TaskDemo\bin\Debug\TaskDemo.exe
+C:\Users\madavir\source\repos\TaskDemo\bin\Debug\TaskDemo.pdb
+C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.csproj.AssemblyReference.cache
+C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.csproj.CoreCompileInputs.cache
+C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.exe
+C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.pdb
+C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.exe.config

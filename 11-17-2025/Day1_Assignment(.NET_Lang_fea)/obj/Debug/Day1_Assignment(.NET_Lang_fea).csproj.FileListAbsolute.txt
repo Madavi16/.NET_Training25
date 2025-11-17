@@ -1,0 +1,8 @@
+C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\bin\Debug\Day1_Assignment(.NET_Lang_fea).exe.config
+C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\bin\Debug\Day1_Assignment(.NET_Lang_fea).exe
+C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\bin\Debug\Day1_Assignment(.NET_Lang_fea).pdb
+C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).csproj.AssemblyReference.cache
+C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).csproj.CoreCompileInputs.cache
+C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).exe
+C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).pdb
+C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).exe.config

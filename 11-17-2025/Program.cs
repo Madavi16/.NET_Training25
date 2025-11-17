@@ -24,6 +24,7 @@ namespace Employee_Mangement_System
             Experience = experience;
         }
 
+        // Override ToString() method for easy display
         public override string ToString()
         {
             return $"ID: {EmpId}\nName: {Name}\nDepartment: {Department}\nSalary: {Salary}\nExperience: {Experience} years";
@@ -33,6 +34,7 @@ namespace Employee_Mangement_System
 
     internal class Program
     {
+        // Delegate to display employee details
         public delegate void DisplayDelegate(List<Employee> employees);
         static void Main(string[] args)
         {
@@ -52,6 +54,7 @@ namespace Employee_Mangement_System
                 new Employee(10, "Jaggu", "HR", 35000, 2)
             };
 
+            // Instantiate the delegate with a lambda expression
             DisplayDelegate displayDelegate = list =>
             {
                 foreach (var emp in list)
@@ -62,34 +65,40 @@ namespace Employee_Mangement_System
 
             Console.WriteLine("\n========== ALL EMPLOYEES LIST ==========\n");
 
+            // Display all employees
             displayDelegate(employees);
 
             Console.WriteLine("\n========== FILTERING DETAILS ==========\n");
 
+            // Filtering employees based on different criteria
             var highSalary = employees.FindAll(e => e.Salary > 50000);
             Console.WriteLine("Employees with Salary>50000: ");
             displayDelegate(highSalary);
 
             Console.WriteLine("\n -------------------------------------- \n");
 
+            // Employees in IT Department
             var findDept = employees.FindAll(e=>e.Department == "IT");
             Console.WriteLine("\nEmployees who works in IT Department: ");
             displayDelegate(findDept);
 
             Console.WriteLine("\n -------------------------------------- \n");
 
+            // Employees with experience more than 5 years
             var experience5 = employees.FindAll(e => e.Experience > 5);
             Console.WriteLine("\nEmployess with experience more than 5 years: ");
             displayDelegate(experience5);
 
             Console.WriteLine("\n -------------------------------------- \n");
 
-            var nameStartsA=employees.FindAll(e => e.Name.StartsWith("A"));
+            // Employees whose name starts with 'A'
+            var nameStartsA =employees.FindAll(e => e.Name.StartsWith("A"));
             Console.WriteLine("\nEmployees whose name starts with A: ");
             displayDelegate(nameStartsA);
 
             Console.WriteLine("\n========== SORTING AND ORDERING OF EMPLOYEES ==========\n");
 
+            // Sorting employees by Name (A-Z)
             var sortByName = new List<Employee>(employees);
             sortByName.Sort((e1, e2) => e1.Name.CompareTo(e2.Name));
             Console.WriteLine("Employees sorted by Name (A-Z): ");
@@ -97,13 +106,15 @@ namespace Employee_Mangement_System
 
             Console.WriteLine("\n -------------------------------------- \n");
 
-            var sortBySalary=new List<Employee>(employees);
+            // Sorting employees by Salary (High - Low)
+            var sortBySalary =new List<Employee>(employees);
             sortBySalary.Sort((e1, e2) => e2.Salary.CompareTo(e1.Salary));
             Console.WriteLine("\nEmployess sorted by salary (High - Low): ");
             displayDelegate(sortBySalary);
 
             Console.WriteLine("\n -------------------------------------- \n");
 
+            // Sorting employees by Experience (Low - High)
             var sortByExperience =new List<Employee>(employees);
             sortByExperience.Sort((e1,e2)=>e1.Experience.CompareTo(e2.Experience));
             Console.WriteLine("\nEmployees sorted by Experience (Low - High): ");
@@ -111,7 +122,8 @@ namespace Employee_Mangement_System
 
             Console.WriteLine("\n========== PROMOTION EMPLOYESS LIST ==========\n");
 
-            var promotionList= employees.FindAll(e=>e.Salary>60000 && e.Experience>5);
+            // Employees eligible for promotion (Salary > 60000 and Experience > 5 years)
+            var promotionList = employees.FindAll(e=>e.Salary>60000 && e.Experience>5);
             displayDelegate(promotionList);
 
             Console.WriteLine("\n========== END OF EMPLOYEE MANAGEMENT SYSTEM ==========\n");
