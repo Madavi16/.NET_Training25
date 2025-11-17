@@ -42,7 +42,7 @@ namespace Employee_Mangement_System
                 //Departments include IT,HR,Finance,Sales.
                 new Employee(1, "Arun", "HR", 56000, 5),
                 new Employee(2, "Boobesh", "IT", 80000, 7),
-                new Employee(3, "Anand", "Finance", 75000, 6),
+                new Employee(3, "Anand", "Finance", 59000, 6),
                 new Employee(4, "David", "IT", 85000, 8),
                 new Employee(5, "Elvin", "HR", 49000, 4),
                 new Employee(6, "Fahad", "Sales", 59000, 5),
@@ -111,7 +111,7 @@ namespace Employee_Mangement_System
 
             Console.WriteLine("\n========== PROMOTION EMPLOYESS LIST ==========\n");
 
-            var promotionList= employees.FindAll(e=>e.Salary>60000 || e.Experience>5);
+            var promotionList= employees.FindAll(e=>e.Salary>60000 && e.Experience>5);
             displayDelegate(promotionList);
 
             Console.WriteLine("\n========== END OF EMPLOYEE MANAGEMENT SYSTEM ==========\n");
