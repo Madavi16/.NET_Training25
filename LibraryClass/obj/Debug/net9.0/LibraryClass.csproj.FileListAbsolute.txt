@@ -1,0 +1,12 @@
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\bin\Debug\net9.0\LibraryClass.deps.json
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\bin\Debug\net9.0\LibraryClass.dll
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\bin\Debug\net9.0\LibraryClass.pdb
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\LibraryClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\LibraryClass.AssemblyInfoInputs.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\LibraryClass.AssemblyInfo.cs
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\LibraryClass.csproj.CoreCompileInputs.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\LibraryClass.sourcelink.json
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\LibraryClass.dll
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\refint\LibraryClass.dll
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\LibraryClass.pdb
+C:\.NET Training_(P)\TrainingRepo\Assignments\LibraryClass\obj\Debug\net9.0\ref\LibraryClass.dll

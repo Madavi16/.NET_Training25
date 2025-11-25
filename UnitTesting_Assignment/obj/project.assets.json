@@ -346,15 +346,6 @@
             "related": ".xml"
           }
         }
-      },
-      "MyApp/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/MyApp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyApp.dll": {}
-        }
       }
     }
   },
@@ -802,17 +793,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "MyApp/1.0.0": {
-      "type": "project",
-      "path": "../../../../Users/madavir/source/repos/MyApp/MyApp.csproj",
-      "msbuildProject": "../../../../Users/madavir/source/repos/MyApp/MyApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.NET.Test.Sdk >= 17.12.0",
-      "MyApp >= 1.0.0",
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
       "NUnit3TestAdapter >= 4.6.0",
@@ -850,11 +835,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\Users\\madavir\\source\\repos\\MyApp\\MyApp.csproj": {
-              "projectPath": "C:\\Users\\madavir\\source\\repos\\MyApp\\MyApp.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
