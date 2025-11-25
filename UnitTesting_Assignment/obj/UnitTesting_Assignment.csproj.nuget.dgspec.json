@@ -31,7 +31,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\madavir\\source\\repos\\RefLib\\RefLib.csproj": {
+                "projectPath": "C:\\Users\\madavir\\source\\repos\\RefLib\\RefLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -89,6 +93,22 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\madavir\\source\\repos\\RefLib\\RefLib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\madavir\\source\\repos\\RefLib\\RefLib.csproj",
+        "projectName": "RefLib",
+        "projectPath": "C:\\Users\\madavir\\source\\repos\\RefLib\\RefLib.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     }
   }

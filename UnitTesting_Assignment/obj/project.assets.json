@@ -346,6 +346,15 @@
             "related": ".xml"
           }
         }
+      },
+      "RefLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RefLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefLib.dll": {}
+        }
       }
     }
   },
@@ -793,6 +802,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "RefLib/1.0.0": {
+      "type": "project",
+      "path": "../../../../Users/madavir/source/repos/RefLib/RefLib.csproj",
+      "msbuildProject": "../../../../Users/madavir/source/repos/RefLib/RefLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -801,6 +815,7 @@
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
       "NUnit3TestAdapter >= 4.6.0",
+      "RefLib >= 1.0.0",
       "coverlet.collector >= 6.0.2"
     ]
   },
@@ -835,7 +850,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\madavir\\source\\repos\\RefLib\\RefLib.csproj": {
+              "projectPath": "C:\\Users\\madavir\\source\\repos\\RefLib\\RefLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
