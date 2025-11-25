@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using ReferenceLibraryClass;
 using static System.Console;
 
-namespace NewFeaturesAssessment
+namespace NewFeatures_Assessment
 {
     class Program
     {

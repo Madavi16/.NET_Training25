@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "manLRiHMEI4=",
+  "dgSpecHash": "0Ct54RfjkaE=",
   "success": true,
-  "projectFilePath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\NewFeaturesAssessment\\NewFeaturesAssessment.csproj",
+  "projectFilePath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\NewFeaturesAssessment\\NewFeatures_Assessment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\madavir\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.0\\microsoft.extensions.dependencyinjection.10.0.0.nupkg.sha512",
     "C:\\Users\\madavir\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"

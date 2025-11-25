@@ -131,9 +131,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\NewFeaturesAssessment\\NewFeaturesAssessment.csproj",
-      "projectName": "NewFeaturesAssessment",
-      "projectPath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\NewFeaturesAssessment\\NewFeaturesAssessment.csproj",
+      "projectUniqueName": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\NewFeaturesAssessment\\NewFeatures_Assessment.csproj",
+      "projectName": "NewFeatures_Assessment",
+      "projectPath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\NewFeaturesAssessment\\NewFeatures_Assessment.csproj",
       "packagesPath": "C:\\Users\\madavir\\.nuget\\packages\\",
       "outputPath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\NewFeaturesAssessment\\obj\\",
       "projectStyle": "PackageReference",
