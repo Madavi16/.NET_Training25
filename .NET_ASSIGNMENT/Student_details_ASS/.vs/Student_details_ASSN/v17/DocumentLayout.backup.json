@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Student_details_ASS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F041665-8316-4889-A488-FE9BC11F4DD8}|..\\..\\..\\..\\..\\Users\\madavir\\source\\repos\\ClientAp\\ClientApp.csproj|c:\\users\\madavir\\source\\repos\\clientap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\bin\\Debug\\ServerApp.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madavir\\source\\repos\\ClientAp\\bin\\Debug\\ClientAp.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36B56EC-582A-417C-86B1-499F06913243}|..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\ServerApp.csproj|c:\\users\\madavir\\source\\.net_training_project_files\\serverapp\\serverclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F058ECB2-7458-4463-B845-235F4B7217E2}|..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingLit\\RemotingLit.csproj|c:\\users\\madavir\\source\\.net_training_project_files\\remotinglit\\serviceclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3902CF-010C-4FB5-833A-26EF8D2E3A5C}|..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\RemotingTrn.csproj|c:\\users\\madavir\\source\\.net_training_project_files\\remotingtrn\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3902CF-010C-4FB5-833A-26EF8D2E3A5C}|..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\RemotingTrn.csproj|c:\\users\\madavir\\source\\.net_training_project_files\\remotingtrn\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientAp.config",
+              "DocumentMoniker": "C:\\Users\\madavir\\source\\repos\\ClientAp\\bin\\Debug\\ClientAp.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\madavir\\source\\repos\\ClientAp\\bin\\Debug\\ClientAp.config",
+              "ToolTip": "C:\\Users\\madavir\\source\\repos\\ClientAp\\bin\\Debug\\ClientAp.config",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\madavir\\source\\repos\\ClientAp\\bin\\Debug\\ClientAp.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-19T15:36:09.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServerApp.config",
+              "DocumentMoniker": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\bin\\Debug\\ServerApp.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\bin\\Debug\\ServerApp.config",
+              "ToolTip": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\bin\\Debug\\ServerApp.config",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\bin\\Debug\\ServerApp.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-19T15:35:55.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\madavir\\source\\repos\\ClientAp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\madavir\\source\\repos\\ClientAp\\Program.cs",
+              "ToolTip": "C:\\Users\\madavir\\source\\repos\\ClientAp\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\madavir\\source\\repos\\ClientAp\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:26:43.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceClass.cs",
+              "DocumentMoniker": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingLit\\ServiceClass.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingLit\\ServiceClass.cs",
+              "ToolTip": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingLit\\ServiceClass.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingLit\\ServiceClass.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:26:42.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\Class1.cs",
+              "ToolTip": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\Class1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:26:40.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\Student.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\Student.cs",
+              "ToolTip": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\Student.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\RemotingTrn\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:26:39.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerClass.cs",
+              "DocumentMoniker": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\ServerClass.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\ServerClass.cs",
+              "ToolTip": "C:\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\ServerClass.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\madavir\\source\\.NET_TRAINING_PROJECT_FILES\\ServerApp\\ServerClass.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:26:37.579Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

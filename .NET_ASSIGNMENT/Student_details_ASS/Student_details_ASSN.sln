@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_details_ASSN", "Student_details_ASSN.csproj", "{F5CA07F6-CB71-4FD5-8A01-E3EC3A50D757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "..\..\..\..\..\Users\madavir\source\repos\ClientAp\ClientApp.csproj", "{6F041665-8316-4889-A488-FE9BC11F4DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerApp", "..\..\..\..\..\Users\madavir\source\.NET_TRAINING_PROJECT_FILES\ServerApp\ServerApp.csproj", "{D36B56EC-582A-417C-86B1-499F06913243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingTrn", "..\..\..\..\..\Users\madavir\source\.NET_TRAINING_PROJECT_FILES\RemotingTrn\RemotingTrn.csproj", "{4F3902CF-010C-4FB5-833A-26EF8D2E3A5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingLit", "..\..\..\..\..\Users\madavir\source\.NET_TRAINING_PROJECT_FILES\RemotingLit\RemotingLit.csproj", "{F058ECB2-7458-4463-B845-235F4B7217E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5CA07F6-CB71-4FD5-8A01-E3EC3A50D757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CA07F6-CB71-4FD5-8A01-E3EC3A50D757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CA07F6-CB71-4FD5-8A01-E3EC3A50D757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CA07F6-CB71-4FD5-8A01-E3EC3A50D757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F041665-8316-4889-A488-FE9BC11F4DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F041665-8316-4889-A488-FE9BC11F4DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F041665-8316-4889-A488-FE9BC11F4DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F041665-8316-4889-A488-FE9BC11F4DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36B56EC-582A-417C-86B1-499F06913243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36B56EC-582A-417C-86B1-499F06913243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36B56EC-582A-417C-86B1-499F06913243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36B56EC-582A-417C-86B1-499F06913243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3902CF-010C-4FB5-833A-26EF8D2E3A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3902CF-010C-4FB5-833A-26EF8D2E3A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3902CF-010C-4FB5-833A-26EF8D2E3A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3902CF-010C-4FB5-833A-26EF8D2E3A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F058ECB2-7458-4463-B845-235F4B7217E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F058ECB2-7458-4463-B845-235F4B7217E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F058ECB2-7458-4463-B845-235F4B7217E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F058ECB2-7458-4463-B845-235F4B7217E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8597DCFB-59DC-42CC-BF9D-F150726DAC7A}
+	EndGlobalSection
+EndGlobal

@@ -6,3 +6,11 @@ C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.csproj.CoreCompileInpu
 C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.exe
 C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.pdb
 C:\Users\madavir\source\repos\TaskDemo\obj\Debug\TaskDemo.exe.config
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TaskDemo\bin\Debug\TaskDemo.exe.config
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TaskDemo\bin\Debug\TaskDemo.exe
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TaskDemo\bin\Debug\TaskDemo.pdb
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TaskDemo\obj\Debug\TaskDemo.csproj.AssemblyReference.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TaskDemo\obj\Debug\TaskDemo.exe.config
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TaskDemo\obj\Debug\TaskDemo.csproj.CoreCompileInputs.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TaskDemo\obj\Debug\TaskDemo.exe
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TaskDemo\obj\Debug\TaskDemo.pdb

@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA2878-C43B-4398-B704-62577B207AF8}|Day1_Assignment(.NET_Lang_fea).csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\student_part1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA2878-C43B-4398-B704-62577B207AF8}|Day1_Assignment(.NET_Lang_fea).csproj|solutionrelative:student_part1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA2878-C43B-4398-B704-62577B207AF8}|Day1_Assignment(.NET_Lang_fea).csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA2878-C43B-4398-B704-62577B207AF8}|Day1_Assignment(.NET_Lang_fea).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA2878-C43B-4398-B704-62577B207AF8}|Day1_Assignment(.NET_Lang_fea).csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\.net_assignment\\day1_assignment(.net_lang_fea)\\student_part2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA2878-C43B-4398-B704-62577B207AF8}|Day1_Assignment(.NET_Lang_fea).csproj|solutionrelative:student_part2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA2878-C43B-4398-B704-62577B207AF8}|Day1_Assignment(.NET_Lang_fea).csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\extensionmethoddemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA2878-C43B-4398-B704-62577B207AF8}|Day1_Assignment(.NET_Lang_fea).csproj|solutionrelative:extensionmethoddemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student_part2.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\Student_part2.cs",
+              "RelativeDocumentMoniker": "Student_part2.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\Student_part2.cs",
+              "RelativeToolTip": "Student_part2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:28:24.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student_Part1.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\Student_Part1.cs",
+              "RelativeDocumentMoniker": "Student_Part1.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\Student_Part1.cs",
+              "RelativeToolTip": "Student_Part1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:28:23.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:28:21.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExtensionMethodDemo.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\ExtensionMethodDemo.cs",
+              "RelativeDocumentMoniker": "ExtensionMethodDemo.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\.NET_ASSIGNMENT\\Day1_Assignment(.NET_Lang_fea)\\ExtensionMethodDemo.cs",
+              "RelativeToolTip": "ExtensionMethodDemo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:28:16.361Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

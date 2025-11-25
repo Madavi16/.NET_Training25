@@ -1,0 +1,8 @@
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Student_details_ASS\bin\Debug\Student_details_ASS.exe.config
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Student_details_ASS\bin\Debug\Student_details_ASS.exe
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Student_details_ASS\bin\Debug\Student_details_ASS.pdb
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Student_details_ASS\obj\Debug\Student_details_ASSN.csproj.AssemblyReference.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Student_details_ASS\obj\Debug\Student_details_ASSN.csproj.CoreCompileInputs.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Student_details_ASS\obj\Debug\Student_details_ASS.exe
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Student_details_ASS\obj\Debug\Student_details_ASS.pdb
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Student_details_ASS\obj\Debug\Student_details_ASS.exe.config

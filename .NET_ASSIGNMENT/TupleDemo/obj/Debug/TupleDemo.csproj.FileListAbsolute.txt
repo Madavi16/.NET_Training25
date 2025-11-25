@@ -1,0 +1,8 @@
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TupleDemo\bin\Debug\TupleDemo.exe.config
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TupleDemo\bin\Debug\TupleDemo.exe
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TupleDemo\bin\Debug\TupleDemo.pdb
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TupleDemo\obj\Debug\TupleDemo.csproj.AssemblyReference.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TupleDemo\obj\Debug\TupleDemo.csproj.CoreCompileInputs.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TupleDemo\obj\Debug\TupleDemo.exe
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TupleDemo\obj\Debug\TupleDemo.pdb
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\TupleDemo\obj\Debug\TupleDemo.exe.config

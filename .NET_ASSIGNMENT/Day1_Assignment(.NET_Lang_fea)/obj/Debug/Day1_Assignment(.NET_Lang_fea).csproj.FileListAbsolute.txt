@@ -6,3 +6,11 @@ C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assi
 C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).exe
 C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).pdb
 C:\Users\madavir\source\repos\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).exe.config
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Day1_Assignment(.NET_Lang_fea)\bin\Debug\Day1_Assignment(.NET_Lang_fea).exe.config
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Day1_Assignment(.NET_Lang_fea)\bin\Debug\Day1_Assignment(.NET_Lang_fea).exe
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Day1_Assignment(.NET_Lang_fea)\bin\Debug\Day1_Assignment(.NET_Lang_fea).pdb
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).csproj.AssemblyReference.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).exe.config
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).csproj.CoreCompileInputs.cache
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).exe
+C:\.NET Training_(P)\TrainingRepo\Assignments\.NET_ASSIGNMENT\Day1_Assignment(.NET_Lang_fea)\obj\Debug\Day1_Assignment(.NET_Lang_fea).pdb
