@@ -33,7 +33,7 @@ namespace NewFeatures_Assessment
 
             }
 
-            WriteLine("Press Any Key to Exit.......... Bye Bye");
+            WriteLine("Press Any Key to Exit..........");
             Console.ReadLine();
         }
     }

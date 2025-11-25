@@ -22,7 +22,7 @@
             {
                 101 => new EmployeeRecord { Id = 101, Name = "Ramya", Role = "Intern", IsVeteran = false },
                 102 => new EmployeeRecord { Id = 102, Name = "Keerti", Role = "Developer", IsVeteran = false },
-                103 => new EmployeeRecord { Id = 103, Name = "Chiru", Role = "Manager", IsVeteran = true },
+                103 => new EmployeeRecord { Id = 103, Name = "Chiranjeevi", Role = "Manager", IsVeteran = true },
                 104 => new EmployeeRecord { Id = 104, Name = "Balaji", Role = "Manager", IsVeteran = false },
                 _ => new EmployeeRecord { Id = empId, Name = "Unknown", Role = "Contractor", IsVeteran = false }
             };
