@@ -1,0 +1,179 @@
+1. Display the list of customers who resides in Bangalore 
+
+
+Ans:
+ select * from Customers where CustAddress='Bangalore'
+
+
+2. Display the list of customers who does not resides in Bangalore or 
+chennai 
+
+Ans: 
+select * from Customers where CustAddress NOT IN ('Bangalore', 'Chennai')
+
+3. Display the list of customers who’s age is greater then 50 and does not 
+resides in Bangalore
+
+Ans:
+ select * from Customers where Age> 50 AND CustAddress NOT IN ('Bangalore')
+
+ 
+4. Display the list of customers who’s name starts with A 
+
+Ans: 
+select * from Customers where CustName like 'A%'
+
+5. Display the list of customers who’s name contains a word Br 
+
+Ans: 
+select * from Customers where CustName like '%Br%'
+
+6. Display the list of customer who’s name start between a to k  
+
+Ans: 
+select * from customers where Upper( LEFT(CustName,1)) between 'A' and 'K'
+order by CustName
+
+7. Display the list of customers who’s name is 5 character long 
+
+ANS: 
+select * from Customers where LEN(CustName) = 5 order by CustName
+
+
+8. Display the list of customer who’s name  
+a. Start with s 
+b. Third character is c 
+c. Ends with e 
+
+Ans: 
+select * from Customers where CustName like 'S_c%e' order by CustName
+
+9. Display unique customer names from customers table 
+
+Ans : 
+select distinct CustName from Customers order by CustName 
+
+10. List orders details where qty falling in the range 100-200  and 700-1200 
+
+Ans : 
+select * from orders where (quantity between 100 and 200)
+or (quantity between 700 and 1200)
+order by quantity
+
+
+11.  List customer details where custname beginning with AL and ending 
+with N  
+
+Ans: 
+select * from Customers where CustName like 'AL%N' 
+
+12. Display what each  price would be if a 20% price increase were to take 
+place. Show the custid , old price and new price ,using meaningful 
+headings(use orders table)  
+
+Ans: 
+select custId as [Customer ID], 
+		price as [Old Price],
+		price * 1.20 as [New Price after 20% Increase] from Orders
+
+
+
+13. Display top 3 highest qty from orders table 
+
+Ans: 
+select Top 3 * from Orders order by quantity desc
+
+14. Display how many times customers have purchased a product (display 
+count and customerid from orders table) 
+
+ANS :
+select custId as [Customer Id],
+		COUNT(*) as [Purchase Count]
+		from Orders
+		group by custId
+		order by [Purchase Count] Desc
+
+
+
+15. Display the list of orders who’s orders made earlier then 5 years from 
+now 
+
+ANS :  
+select * 
+from Orders 
+where orderDate < DATEADD(year, -5, GetDate())
+
+16.  Select * from customers where custname is null 
+
+ANS : 
+select * from Customers where CustName IS NULL
+
+17.  Display orderdetails in following format 
+OrderID-Date Total(price*qty) 
+100-1/1/2000 500 
+
+ANS:
+ select 
+CAST(orderId as varchar(10)) + '-' + CONVERT(varchar(10),
+orderDate , 101) as [OrderID - Data],
+price * quantity as [Total]
+from Orders
+ 
+18.  Update orders table by decreasing price by 20% for qty > 50 
+
+ANS : 
+update orders 
+set price = price * 0.80 
+where quantity>50
+
+19. You want to retrieve data for all the orders who made order  '1-12-90' 
+having price 4000 – 6000 and sort the column in descending order on 
+price 
+ 
+ANS :
+ select * from Orders
+where orderDate = '1990-12-01'
+and price between 4000 and 6000
+order by price desc
+ 
+ 
+20. Display order details in following format 
+Custid Price (sum of price) Count (count of qty) 
+1 5000 3 
+2 4000 9 
+3 6700 6 
+
+ANS : 
+select custId as [Customer ID],
+Sum(price) as [Total Price],
+Count(quantity) as [Order Count]
+from Orders
+group by custId
+order by custId
+
+
+
+21. Display above details only for price > 4000 
+
+ANS: 
+select custId as [Customer ID],
+Sum(price) as [Total Price],
+Count(quantity) as [Order Count]
+from Orders
+group by custId
+having sum(price) > 4000
+order by custId
+
+22. Write a query to create duplicate table of customer , and name it as 
+custhistory 
+a. Delete all the records of custhistory 
+b. Copy records of customers to custhistory where age > 30
+
+ANS: 
+
+select * into custhistory from Customers where 1=0
+delete from custhistory
+
+insert into custhistory select * from customers where Age>30
+
+select * from custhistory
