@@ -1,0 +1,399 @@
+
+SQL Server Assessment 
+---------------------
+  
+SQL Queries 
+-----------
+
+Q1. List customers who placed an order in the last 30 days. 
+(Use joins) 
+
+select distinct c.*
+from Customer c
+join orders o on c.custId=o.custId
+where o.OrderDate >= dateadd(DAY, -30, getdate())
+
+-----------------------------------------------------------------------
+
+Q2. Display top 3 products that generated the highest total sales amount. 
+(Use aggregate + joins) 
+
+select top 3 p.productName,
+sum(ot.Qty * p.price)  as TotalSales
+from OrderDetails ot
+join Products p on ot.ProductId=p.productId
+group by p.productName
+order by TotalSales desc
+
+-----------------------------------------------------------------------
+
+Q3. For each city, show number of customers and total order count. 
+
+select c.City,
+count(distinct c.custId) as TotalCustomers,
+count(o.orderId) as TotalOrders
+from Customer c
+left join orders o on c.custId=o.custId
+group by c.City
+
+-----------------------------------------------------------------------
+
+Q4. Retrieve orders that contain more than 2 different products. 
+
+select *
+from OrderDetails
+where OrderId in
+(
+select OrderId
+from OrderDetails
+group by OrderId
+having count(distinct ProductId)>2
+)
+
+-----------------------------------------------------------------------
+
+Q5. Show orders where total payable amount is greater than 10,000. 
+(Hint: SUM(Qty * Price)) 
+
+select ot.OrderId,
+sum(ot.Qty * p.price) as TotalAmount
+from OrderDetails ot
+join Products p on ot.ProductId=p.productId
+group by ot.OrderId
+having sum(ot.Qty * p.price) >10000
+
+-----------------------------------------------------------------------
+
+Q6. List customers who ordered the same product more than once. 
+
+select c.custId, c.custName, ot.ProductId
+from orders o
+join OrderDetails ot on o.orderId= ot.OrderId
+join Customer c on c.custId=o.custId
+group by c.custId,c.custName,ot.ProductId
+having count(*) >1
+
+------------------------------------------------------------------------
+
+Q7. Display employee-wise order processing details 
+(Assume Orders table has EmployeeID column) 
+ 
+ 
+ alter table Orders add EmployeeId int null
+select * from orders
+
+update orders
+set employeeId =17020
+where orderId=5001
+go
+update orders
+set employeeId =17021
+where orderId=5002
+go
+update orders
+set employeeId =17022
+where orderId=5003
+go
+update orders
+set employeeId =17023
+where orderId=5004
+go
+update orders
+set employeeId =17024
+where orderId=5005
+go
+
+select EmployeeId,
+count(orderId) as OrdersHandling
+from orders
+group by EmployeeId
+
+-------------------------------------------------------------------------
+ 
+ 
+Views 
+1. Create a view vw_LowStockProducts 
+Show only products with stock < 5. 
+View should be WITH SCHEMABINDING and Encrypted 
+
+
+alter view vw_LowStoclProducts
+with schemaBinding, encryption
+as
+select productId,productName,price,stock
+from dbo.Products
+where stock<10
+
+go
+select * from dbo.vw_LowStoclProducts
+
+_________________________________________________________________________________________________
+ 
+Functions 
+---------
+
+1. Create a table-valued function: fn_GetCustomerOrderHistory(@CustID) 
+Return: OrderID, OrderDate, TotalAmount. 
+
+
+alter function fn_GetCustomerOrderHistory(@custId int)
+returns table
+as
+return
+(
+select o.orderId,o.OrderDate,
+sum(ot.Qty * p.price) as TotalAmount
+from Orders o
+join OrderDetails ot on o.orderId=ot.OrderId
+join Products p on ot.ProductId=p.productId
+where o.custId=@custId
+group by o.orderId , o.OrderDate
+)
+
+go
+select * from dbo.fn_GetCustomerOrderHistory (2)
+
+---------------------------------------------------
+
+2. Create a function fn_GetCustomerLevel(@CustID) 
+Logic: 
+• Total purchase > 1,00,000 → "Platinum" 
+• 50,000–1,00,000 → "Gold" 
+• Else → "Silver" 
+
+
+alter function fn_GetCustomerLevel(@cusId int)
+returns table
+as
+return
+(
+select
+case 
+	when sum(ot.Qty * p.price) >100000 then 'Platinum'
+	when sum(ot.Qty* p.price) between 50000 and 100000 then 'Gold'
+	else 'Silver'
+end as CustomerLevel
+from orders o
+join OrderDetails ot on o.orderId=ot.OrderId
+join Products p on ot.ProductId=p.productId
+where o.custId= @cusId
+)
+go
+
+select * from dbo.fn_GetCustomerLevel (5)
+
+_________________________________________________________________________________________________
+ 
+Procedures 
+----------
+
+1. Create a stored procedure to update product price 
+Rules: 
+• Old price must be logged in a PriceHistory table 
+• New price must be > 0 
+• If invalid, throw custom error. 
+
+
+create table PriceHistory
+(
+historyId int identity primary key,
+ProductId int,
+OldPrice decimal(10,2),
+NewPrice decimal(10,2),
+ChangeInDate DateTime default getdate()
+)
+
+go
+
+insert into PriceHistory(ProductId,OldPrice,NewPrice)
+values
+(101,75000, 77000),
+(102,55000, 56000),
+(103,800, 850),
+(104,3000, 3200),
+(105,1200, 1500)
+go
+
+select * from PriceHistory
+go
+
+alter procedure sp_updatePrice
+@productId int,
+@newPrice decimal(10,2)
+as
+begin
+if @newPrice<=0
+begin
+	;THROW 50007,'new price must be greater than 0',1
+end
+
+declare @oldPrice decimal(10,2)
+select @oldPrice = price
+from Products
+where productId=@productId
+
+insert into PriceHistory(ProductId,OldPrice,NewPrice)
+values (@productId,@oldPrice,@newPrice)
+
+update Products set price = @newPrice where productId=@productId
+end
+
+go
+sp_updatePrice 102,57000
+go
+select * from PriceHistory
+
+---------------------------------------------------------------------
+
+2. Create a procedure sp_SearchOrders 
+Search orders by: 
+• Customer Name 
+• City 
+• Product Name 
+• Date range 
+(Any parameter can be NULL → Dynamic WHERE) 
+
+
+
+create procedure sp_SearchOrders
+(
+@custName varchar(100) =null,
+@city varchar(100) =null,
+@productName varchar(100) =null,
+@startDate date =null,
+@endDate date =null
+)
+as
+begin
+select distinct o.*
+from orders o
+join Customer c on c.custId=o.custId
+join OrderDetails ot on o.orderId=ot.OrderId
+join products p on ot.ProductId=p.productId
+where ( c.custName like '%' + @custName + '%' or @custName is null)
+and (c.City =@city or @city is null)
+and (p.productName like '%' +@productName+ '%' or @productName is null)
+and (o.OrderDate between @startDate and @endDate or @startDate is null)
+end
+
+go
+exec sp_SearchOrders null, null, 'Laptop', null ,null
+
+_________________________________________________________________________________________________
+ 
+Triggers 
+--------
+
+1. Create a trigger on Products 
+Prevent deletion of a product if it is part of any OrderDetails. 
+
+
+create trigger trg_PreventPdt
+on products
+instead of delete
+as
+begin
+if exists
+(
+select 1
+from deleted d 
+join OrderDetails ot on d.productId=ot.ProductId)
+begin
+ print 'Cannot Delete product as it is already existed in orders'
+return
+end
+
+delete from Products where productId in(select productId from deleted )
+end
+
+
+go
+delete from Products 
+where productId=101
+go
+select * from Products where productId=101
+go
+select * from orders
+
+------------------------------------------------------------------------
+
+2. Create an AFTER UPDATE trigger on Payments 
+Log old and new payment values into a PaymentAudit table. 
+
+
+create table PaymentAudit
+(
+AuditId int identity primary key,
+PaymentId int,
+OldAmount decimal(10,2),
+newAmount decimal(10,2),
+AuditDate datetime default getdate()
+)
+go
+
+alter trigger trg_paymentAudit
+on payments
+after update
+as
+begin
+	 insert into PaymentAudit(PaymentId,OldAmount,newAmount)
+	 select d.paymentId,d.amount,i.amount
+	 from deleted d
+	 join inserted i on d.paymentId=i.paymentId
+end
+
+
+go
+update Payments set amount=5500
+where paymentId=7001
+go
+select * from Payments
+go
+select * from PaymentAudit
+
+
+--------------------------------------------------------------------------
+
+3. Create an INSTEAD OF DELETE trigger on Customers 
+Logic: 
+• If customer has orders → mark status as “Inactive” instead of deleting 
+• If no orders → allow deletion
+
+
+alter table customer add status varchar(100)
+default 'Active'
+go
+
+
+alter trigger trg_DeleteCust
+on customer
+instead of delete
+as
+begin
+	if exists
+	(
+	select 1 
+	from deleted d 
+	join orders o on d.custId=o.custId
+	)
+	begin
+	update Customer
+	set status = 'Inactive'
+	where custId in (select custId from deleted)
+end
+else
+	begin
+	delete from Customer where custId in (select custId from deleted)
+	end
+end
+
+
+delete from Customer where custId=1
+go
+select * from Customer where custId=1
+
+delete from Customer where custId=6
+go
+select * from Customer where custId=6
+go
+select * from Customer
