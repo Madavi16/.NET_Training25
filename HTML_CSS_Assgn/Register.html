@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="register">
+
+<header>
+    <h1>User Registration</h1>
+</header>
+
+<nav>
+    <a href="Home.html">Home</a>
+    <a href="Article.html">Articles</a>
+    <a href="Register.html">Register</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Videos.html">Videos</a>
+</nav>
+
+<article>
+    <h2>Register Here</h2>
+
+    <form class="reg-form">
+        <label for="Employee ID">Employee ID</label><br>
+        <input type="number" name="Employee ID"  placeholder="Enter Employee ID" required  oninvalid="this.setCustomValidity('Employee ID cannot be empty')"
+        oninput="this.setCustomValidity('')"><br>
+
+        <label for="Employee Name">Employee Name</label><br>
+        <input type="text" name="Employee Name" placeholder="Enter Employee Name" required  oninvalid="this.setCustomValidity('Employee Name cannot be empty')"
+        oninput="this.setCustomValidity('')" ><br>
+
+        <label for="DOB">DOB</label><br>
+        <input type="date" name="DOB"  required><br>
+
+        <label for="Email">Email</label><br>
+        <input type="email" name="Email" placeholder="Enter Email" required oninvalid="this.setCustomValidity('Please enter a valid email address')"
+        oninput="this.setCustomValidity('')"><br>
+
+        <label for="Project URL">Project URL</label><br>
+        <input type="url" name="Project URL" placeholder="Enter Project Site URL" required><br>
+
+        <label for="Project ID">Project ID</label><br>
+        <input type="number" name="Project ID" placeholder="Project ID" step="1"><br>
+
+        <label for="MONTH">MONTH</label><br>
+        <input name="MONTH" type="month"><br>
+
+        <label for="WEEK">WEEK</label><br>
+        <input name="WEEK" type="week"><br>
+
+        <label for="TIME">TIME</label><br>
+        <input name="TIME" type="time"><br>
+       
+        <label for="Choose Color">COLOR</label><br>
+        <input name="Choose Color" type="color"><br>
+
+        <label for="Password">Password</label><br>
+        <input name="Password" type="password"
+        placeholder="Enter Password"
+        pattern="(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}"
+        title="Min 8 chars, 1 capital, 1 number, 1 symbol"
+        required oninvalid="this.setCustomValidity('Password must have min 8 chars, 1 capital letter, 1 number, 1 symbol')"
+        oninput="this.setCustomValidity('')"><br>
+
+        <label for="CODE">CODE</label><br>
+        <input name="CODE" list="codes" placeholder="Project Code"><br>
+        <datalist id="codes">
+        <option value="PRJ101">
+        <option value="PRJ202">
+        <option value="PRJ303">
+        <option value="PRJ304">
+        </datalist>
+        
+        <button>Submit</button>
+        </form>
+        
+
+</article>
+
+<footer>&copy; Register Page</footer>
+
+</body>
+</html>
