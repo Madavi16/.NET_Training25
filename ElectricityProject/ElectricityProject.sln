@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityProject", "ElectricityProject.csproj", "{6430DAC7-B446-46CD-9957-FE3F35B2D528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityBillWebApp", "..\..\..\..\Users\madavir\source\repos\ElectricityBillWebApp\ElectricityBillWebApp.csproj", "{5BDADF5D-4E4D-4A2E-8AD3-603F05AD62D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6430DAC7-B446-46CD-9957-FE3F35B2D528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6430DAC7-B446-46CD-9957-FE3F35B2D528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6430DAC7-B446-46CD-9957-FE3F35B2D528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6430DAC7-B446-46CD-9957-FE3F35B2D528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDADF5D-4E4D-4A2E-8AD3-603F05AD62D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDADF5D-4E4D-4A2E-8AD3-603F05AD62D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDADF5D-4E4D-4A2E-8AD3-603F05AD62D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDADF5D-4E4D-4A2E-8AD3-603F05AD62D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {541A326B-CC82-4F95-89AD-95259169461B}
+	EndGlobalSection
+EndGlobal

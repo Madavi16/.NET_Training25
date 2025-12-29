@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\addbill.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:addbill.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\app_code\\dbhandler.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:app_code\\dbhandler.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\addbill.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:addbill.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDADF5D-4E4D-4A2E-8AD3-603F05AD62D6}|..\\..\\..\\..\\Users\\madavir\\source\\repos\\ElectricityBillWebApp\\ElectricityBillWebApp.csproj|c:\\users\\madavir\\source\\repos\\electricitybillwebapp\\addbill.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\app_code\\billvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:app_code\\billvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\app_code\\electricityboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:app_code\\electricityboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\app_code\\electricitybill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:app_code\\electricitybill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\electricityproject\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6430DAC7-B446-46CD-9957-FE3F35B2D528}|ElectricityProject.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddBill.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\madavir\\source\\repos\\ElectricityBillWebApp\\AddBill.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\madavir\\source\\repos\\ElectricityBillWebApp\\AddBill.aspx.cs",
+              "ToolTip": "C:\\Users\\madavir\\source\\repos\\ElectricityBillWebApp\\AddBill.aspx.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\madavir\\source\\repos\\ElectricityBillWebApp\\AddBill.aspx.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAI0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T05:54:14.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddBill.aspx.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\AddBill.aspx.cs",
+              "RelativeDocumentMoniker": "AddBill.aspx.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\AddBill.aspx.cs",
+              "RelativeToolTip": "AddBill.aspx.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAgwIwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T05:43:26.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Login.aspx.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\Login.aspx.cs",
+              "RelativeToolTip": "Login.aspx.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T05:42:38.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-29T05:41:13.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBill.aspx",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\AddBill.aspx",
+              "RelativeDocumentMoniker": "AddBill.aspx",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\AddBill.aspx",
+              "RelativeToolTip": "AddBill.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-29T05:39:49.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-29T05:39:38.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBHandler.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\App_Code\\DBHandler.cs",
+              "RelativeDocumentMoniker": "App_Code\\DBHandler.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\App_Code\\DBHandler.cs",
+              "RelativeToolTip": "App_Code\\DBHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T05:39:10.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BillValidator.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\App_Code\\BillValidator.cs",
+              "RelativeDocumentMoniker": "App_Code\\BillValidator.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\App_Code\\BillValidator.cs",
+              "RelativeToolTip": "App_Code\\BillValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T05:38:58.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ElectricityBoard.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\App_Code\\ElectricityBoard.cs",
+              "RelativeDocumentMoniker": "App_Code\\ElectricityBoard.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\App_Code\\ElectricityBoard.cs",
+              "RelativeToolTip": "App_Code\\ElectricityBoard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T05:38:47.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ElectricityBill.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\App_Code\\ElectricityBill.cs",
+              "RelativeDocumentMoniker": "App_Code\\ElectricityBill.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\ElectricityProject\\App_Code\\ElectricityBill.cs",
+              "RelativeToolTip": "App_Code\\ElectricityBill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T05:38:08.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
