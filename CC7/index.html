@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Code Challenge Using Web Technologies</title>
+
+        <script src="JQue.js"></script>
+        <script src="script.js"></script>
+
+
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f4f6f8;
+                padding:20px;
+            }
+
+            h2{
+                color: #2c3e50;
+                margin-bottom: 10px;
+            }
+
+            hr{
+                margin: 25px 0;
+            }
+
+            section{
+                background-color: #ffffff;
+                padding: 15px 20px;
+                border-radius: 6px;
+                box-shadow: 0 0 6px rgba(0,0, 0, 0.1);
+            }
+
+            input[type="number"],
+            input[type="text"]
+            {
+                padding: 6px;
+                width: 180px;
+                margin: 5px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button{
+                padding:  7px 14px;
+                background-color: #3498db;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                margin: 5px 5px 5px 0;
+            }
+
+            button:hover{
+                background-color: #2980b9;
+
+            }
+
+            #calcResult{
+                font-weight: bold;
+                margin-top: 10px;
+                color: greenyellow;
+            }
+
+            #oddEvenRes
+            {
+                background-color: #eef;
+                padding: 10px;
+                border-radius: 4px;
+            }
+
+            #myTab
+            {
+                border-collapse: collapse;
+                width: 200px;
+                margin-bottom: 10px;
+            }
+
+            #myTab td{
+                border: 1px solid #ccc;
+                padding: 6px;
+            }
+
+            #myDiv h1{
+                padding: 5px;
+                color:white;
+            }
+
+            #singleElement
+            {
+                margin-top: 10px;
+                font-weight: bold;
+                color: #8e44ad;
+            }
+
+            #indexList li{
+                padding: 4px;
+            }
+
+            #inputResult p{
+                background-color: #dff0d8;
+                padding: 6px;
+                border-radius: 4px;
+                margin-top: 5px;
+            }
+             
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <section>
+       <h2>Task1: Multiplication and Division</h2>
+       <input type="number" id="num1" placeholder="Enter number 1">
+       <input type="number" id="num2" placeholder="Enter number 2">
+       <br> <br>
+       <button id="btnMultiply">Multiply</button>
+       <button id="btnDivide">Divide</button>
+       <p id="calcResult"></p>
+        </section>
+
+        <hr/>
+
+        <section>
+            <h2>Task 2: Odd/Even (0-15)</h2>
+            <div id="oddEvenRes"></div>
+        </section>
+        <hr/>
+
+        <section>
+            <h2>Task 3: Button Click Event</h2>
+            <button id="btnClick">Click Here</button>
+        </section>
+
+        <hr/>
+        <section>
+            <h2>Task 4:Hide Odd Table Rows</h2>
+            <table id="myTab">
+                <tr><td>Fruits</td></tr>
+                <tr><td>Nuts</td></tr>
+                <tr><td>Desserts</td></tr>
+                <tr><td>Chocolates</td></tr>
+                <tr><td>Savories</td></tr>
+
+            </table>
+            <button id="hideOddRows">Hide Odd Rows</button>
+        </section>
+
+        <hr/>
+        <section>
+            <h2>Task 5:Style H1 Children of Div</h2>
+            <div id="myDiv">
+                <h1> First H1 </h1>
+                <h1> Second H1 </h1>
+                <h2> First H2</h2>
+                <h2> Second H2</h2>
+                <h1>Third H1</h1>
+                <h3>First H3</h3>
+               
+            </div>
+        </section>
+        <hr/>
+
+        <section>
+            <h2>Task 6: get single element</h2>
+            Enter Index: 
+            <input type="number" id="indexInput">
+            <button id="getItem">Get Item</button>
+            <ul id="techList">
+                <li>CSHARP</li>
+                <li>SQL</li>
+                <li>ADO</li>
+            </ul>
+            <p id="singleElement"></p>
+        </section>
+
+        <hr/>
+        <section>
+            <h2>Task 7: Add Index to the List Items</h2>
+            <ul id="indexList">
+                <li>CSHARP</li>
+                <li>SQL</li>
+                <li>ADO</li>
+            </ul>
+        </section>
+
+        <hr/>
+
+
+        <section>
+
+            <h2>task 8 : Append Para on Input</h2>
+            <input type="text" id="inputBox" placeholder="Type Something">
+            <div id="inputResult"></div>
+        </section>
+    </body>
+</html>
