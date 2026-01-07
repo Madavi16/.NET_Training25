@@ -1,0 +1,100 @@
+﻿@model IEnumerable<AsyncContactMvc.Models.Contact>
+@*@{
+    ViewBag.Title = "Contacts List";
+}*@
+
+<h2 style="text-align:center; color:#2c3e50;">Contacts</h2>
+<hr/>
+
+<div style="margin-bottom:15px;">
+    @Html.ActionLink("Create New Contact","Create",null, new {@class="btn-create"})
+</div>
+
+<table class="contacts-table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th style="width:120px;">Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model!=null && Model.Any())
+        {
+            foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.FirstName</td>
+                        <td>@item.LastName</td>
+                        <td>@item.Email</td>
+                        <td>
+                            @Html.ActionLink("Delete","Delete",
+                           new {id=item.Id},
+                           new {@class="btn-delete"})
+                        </td>
+                    </tr>
+                }
+        }
+else
+            {
+                <tr>
+                    <td colspan="4" style="text-align:center;">
+                        No Contacts Found.
+                    </td>
+                </tr>
+            }
+    </tbody>
+</table>
+
+<style>
+    .contacts-table{
+        width:100%;
+        border-collapse:collapse;
+        font-family:Arial,sans-serif;
+    }
+
+    .contacts-table th
+    {
+        background-color:#34495e;
+        color:white;
+        padding:10px;
+        text-align:left;
+    }
+    .contacts-table td{
+        padding:8px;
+        border:1px solid #ccc;
+    }
+
+    .contacts-table tr:nth-child(even)
+    {
+        background-color:#f2f2f2;
+    }
+
+    .contacts-table tr:hover{
+        background-color:#eaeaea;
+    }
+
+    .btn-create{
+        background-color:#27ae60;
+        color:white;
+        padding:8px 12px;
+        text-decoration:none;
+        border-radius:4px;
+    }
+
+    .btn-delete{
+        background-color:#e74c3c;
+        color:white;
+        padding:6px 10px;
+        text-decoration:none;
+        border-radius:4px;
+    }
+
+    .btn-create:hover,
+    .btn-delete:hover{
+        opacity:0.8;
+    }
+</style>
+
