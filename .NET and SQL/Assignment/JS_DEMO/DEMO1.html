@@ -1,0 +1,38 @@
+<html>
+
+<body>
+
+<div id="d1">India </div>
+<div id="d2"> Canada</div>
+<div id="d3">Russia </div>
+<div id="d4"> America </div>
+
+
+<img id ="im1" src="img1.jpg" height="200" width="300" >
+
+<script>
+
+/* i want to print the content of div tag whose id is d1 using javascript */
+
+//var a = document.getElementById("d1").innerText;
+//alert("the content is "+a);
+
+//document.getElementById("d1").innerText="lets learn js";
+
+
+document.getElementById("im1").src="img2.jpg";
+
+var res= document.getElementsByTagName("div");
+
+for(var i=0;i<res.length;i++)
+{
+alert(res[i].innerText)
+}
+
+</script>
+
+
+
+
+</body>
+</html>

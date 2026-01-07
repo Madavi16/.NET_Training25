@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Image SlideShow</title>
+
+    <style>
+        #slideshow
+        {
+            
+            width: 500px;
+            height: 500px;
+            border: 5px solid peachpuff;
+            
+        }
+        body
+        {
+            
+            align-content: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3 align="center" >Image SlideShow</h3>
+    
+    <div style="text-align: center;margin-top: 50px;">
+    <img  id="slideshow" src="img1.jpg" alt="Slideshow">
+    </div>
+    <script>
+        var images=
+        [
+            "img2.jpg",
+            "img3.jpg",
+            "img6.jpg",
+            "img5.jpg"
+        ];
+
+        var index=0;
+
+        function changeImage()
+        {
+            index++;
+            if(index>=images.length)
+            {
+                index=0;
+            }
+            document.getElementById("slideshow").src=images[index];
+        }
+
+        setInterval(changeImage,2000);
+    </script>
+
+</body>
+
+</html>

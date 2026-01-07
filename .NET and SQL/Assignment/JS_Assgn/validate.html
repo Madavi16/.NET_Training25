@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script>
+        function validateLogin() {
+            var u = document.getElementById("user").value;
+            var v = document.getElementById("pass").value;
+
+            if (u == "madhavi" && v == "67845") {
+                alert("Login Successful!");
+                window.location.href = "home.html"; 
+            } 
+            
+            
+            
+            else {
+                alert("Invalid username or password");
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+    <h3>Login Validation</h3>
+    <input type="text" id="user" placeholder="Username"><br><br>
+    <input type="password" id="pass" placeholder="Password"><br><br>
+    <input type="button" value="Validate" onclick="validateLogin()">
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Display Name Multiple Times</title>
+        <style>
+            #outputDiv
+            {
+                margin-top: 20px;
+                padding: 10px;
+                border: 3px solid turquoise;
+                width: 300px;
+                min-height: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h3>Enter number and name </h3>
+        <label>Enter Number: </label>
+        <input type="number" id="numInput" placeholder="Enter a number"><br><br>
+
+        <label>Enter Name: </label>
+        <input type="text" id="nameInput" placeholder="Enter your name"><br><br>
+
+        <button onclick="displayName()">Display</button><br><br>
+
+        <div id="outputDiv"></div>
+        <script>
+
+            function displayName()
+            {
+                var num=parseInt(document.getElementById("numInput").value);
+                var name=document.getElementById("nameInput").value;
+
+                var outputDiv=document.getElementById("outputDiv");
+                outputDiv.innerHTML="";
+                if(isNaN(num) || num<=0)
+                {
+                    alert("please enter a valid number");
+                    return;
+                }
+               
+
+                for(var i=0;i<num;i++)
+                {
+                    var nameDiv=document.createElement("div");
+                    nameDiv.innerText=name;
+                    outputDiv.appendChild(nameDiv);
+                }
+            }
+        </script>
+    </body>
+</html>

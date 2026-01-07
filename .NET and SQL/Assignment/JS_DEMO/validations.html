@@ -1,0 +1,88 @@
+<html>
+
+<body>
+
+
+
+<script>
+
+
+function display()
+{
+//how to read value from textbox
+
+//alert(t1.value);
+//alert(document.getElementById("t2").value);
+
+var a= document.getElementById("t1").value;
+var b= document.getElementById("t2").value;
+alert(parseInt(a) + parseInt(b));
+
+}
+
+function validate()
+{
+
+//minimumlength of text box should be 3characters long , if not throw error
+
+var a= document.getElementById("t1").value;
+if(a.length<=3)
+{
+alert("minimum length should be 3 characters");
+}
+
+else
+{
+
+alert("valid data");
+}
+
+
+}
+
+
+function hello()
+{
+document.getElementById("d1").innerText ="onfoucs called";
+}
+
+function hello1()
+{
+document.getElementById("d1").innerText ="onblur called";
+}
+
+
+function getdata()
+{
+ a = document.getElementById("s1").value;
+alert(a);
+}
+
+
+</script>
+
+
+<div id="d1">
+</div>
+
+<input type ="text" id ="t1" onblur="hello1()" onfocus="hello()"  /><br>
+
+<input type ="text" id ="t2" /><br>
+
+
+<input type ="button" value="click here" onclick="display()" /><br>
+
+
+<select id ="s1" onchange="getdata()" >
+<option> Sai </option>
+<option> Anvith </option>
+<option> Madhu </option>
+<option> Logesh </option>
+<option> Waseef </option>
+
+</select>
+
+
+</body>
+</html>
+

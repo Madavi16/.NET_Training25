@@ -1,0 +1,119 @@
+<html>
+
+<style>
+
+.c1
+{
+background-color :tomato;
+border :5px solid green;
+}
+
+p
+{
+background-color :steelblue;
+border :5px solid purple;
+
+}
+
+
+</style>
+<body>
+
+<script>
+
+// more about DOM - document object model
+// Change the content of the html page
+// adding new div or any new html element or tags dynamically
+// adding new image
+// applying CSS dynamically
+// hiding the images or elements
+
+
+function demo1()
+{
+document.getElementById("d1").innerHTML= "<font color ='red'><b>Div content changed</b>";
+
+}
+
+function demo2()
+{
+//how to apply css dynamically
+
+a = document.getElementById("d1");
+a.setAttribute("class","c1");  //<div class="c1"> this is doing via javascript
+
+}
+
+function demo3()
+{
+//how to remove css
+
+a = document.getElementById("d1");
+
+a.removeAttribute("class","c1");  
+}
+
+ctr=0;
+
+function demo4()
+{
+ctr+=1;
+
+//at run time i need to all a paragraph 
+a = document.getElementById("d1");
+
+m = document.createElement("p"); //it contains empty <p> tag
+
+n= document.createTextNode("Hello Chiru"+ctr); 
+
+m.appendChild(n); //m=<p> tag iwth hello chiru
+
+a.appendChild(m); //now new element or content is added to the div element
+
+}
+
+function demo5()
+{
+//how to remove p tag
+a = document.getElementById("d1");
+
+a.removeChild(a.lastChild);
+
+}
+
+function demo6()
+{
+//change image
+a = document.getElementById("d1");
+a.hidden=true;
+
+}
+
+
+
+</script>
+
+
+<div id="d1">
+Hello Madhu
+</div>
+
+<input type="button" value ="change div content" onclick="demo1()"/>
+
+
+<input type="button" value ="apply css" onclick="demo2()" />
+
+<input type="button" value ="remove css" onclick="demo3()"/>
+
+<input type="button" value ="add element" onclick="demo4()"/>
+
+<input type="button" value ="remove element" onclick="demo5()"/>
+
+<input type="button" value ="hide div element" onclick="demo6()"/>
+
+
+
+
+
+</body>
+</html>

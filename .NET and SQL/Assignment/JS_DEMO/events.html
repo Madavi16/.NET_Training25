@@ -1,0 +1,35 @@
+<html>
+
+<body>
+
+
+<script>
+
+function display()
+{
+
+document.getElementById("d1").innerText="javascript is widely used script";
+
+}
+
+</script>
+
+
+
+<div id="d1" style ="border:5px solid red" onmouseover="display()">
+this is a default content
+</div>
+
+
+<div id="d1" style ="border:5px solid red" onclick="display()">
+this is a default content
+</div>
+
+
+<div id="d1" style ="border:5px solid red" onmouseover="display()" onmouseout="display()">
+this is a default content
+</div>
+
+
+</body>
+</html>

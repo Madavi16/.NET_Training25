@@ -1,0 +1,158 @@
+<html>
+<head>
+    <title> Javascript Assignment </title>
+
+    <style>
+        .box {
+            height: 100px;
+            width: 200px;
+            border: 3px solid black;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .c1 { background-color: antiquewhite; }
+        .c2 { background-color: tomato; }
+        .c3 { background-color: fuchsia; }
+    </style>
+
+    
+</head>
+<body>
+
+    <script >
+
+ //1. greatest of 3 numbers
+    function greatestofThree()
+    {
+        var a=parseInt(prompt("enter first number"));
+        var b=parseInt(prompt("enter second number"));
+        var c=parseInt(prompt("enter third number"));
+
+        var greatest;
+        if(a>=b && a>=c) greatest=a;
+        else if(b>=a && b>=c) greatest=b;
+        else greatest=c;
+
+        alert("Greatest of all three numbers is :"+greatest);
+    }
+
+
+    function simpleInterest()
+    {
+        var p= parseInt(prompt("Enter Principal amount: "));
+        var t=parseInt(prompt("Enter Time Period: " ));
+        var r= parseInt(prompt("Enter Rate of Interest: "));
+
+        var SI=(p*t*r)/100;
+        alert("Simple Interest (SI) : "+SI);
+    }
+
+
+    function difference13()
+    {
+        var n=parseInt(prompt("Enter a number: "));
+        var res;
+
+        if(n>13)
+        {
+            res=(n-13)*2;
+
+        }
+        else{
+            res=13-n;
+        }
+
+        alert("Result is: "+res);
+    }
+
+    function OddEven()
+    {
+        var result="";
+        for(var i=0;i<=15;i++)
+        {
+            if(i%2===0)
+            {
+            result+=i+" -> Even"+"\n";
+        
+            }
+            else{
+                result+=i+" -> Odd"+"\n";
+            
+            }
+        
+        }
+        alert(result);
+    
+    // document.write(result);
+    }
+
+
+    //DOM quesstions
+
+
+    function changeColor() {
+        var m = document.getElementById("colorList").value;
+        var b = document.getElementById("colorDiv");
+
+        if (m === "white") {
+            b.setAttribute("class", "box c1");
+        } else if (m === "tomato") {
+            b.setAttribute("class", "box c2");
+        } else if (m === "fuchsia") {
+            b.setAttribute("class", "box c3");
+        }
+    }
+
+
+
+
+    function toggleImage()
+    {
+        var img =document.getElementById(id);
+        img.hidden=!img.hidden;
+    }
+    
+    
+    </script>
+
+    
+
+
+    <h2>Basic Programming</h2>
+   
+
+    <button onclick="greatestofThree()"> Greatest Number Calculator </button>
+    <button onclick="simpleInterest()"> Simple Interest Calculator </button>
+    <button onclick="difference13()"> Difference calculator </button>
+    <button onclick="OddEven()"> Odd / Even Calculator </button>
+
+    <hr>
+
+
+    <h2>Change Div Color</h2>
+
+    <div id="colorDiv" class="box">
+        Hello Madhu
+    </div>
+    <br>
+    <br>
+    
+    <select id="colorList"  onchange="changeColor()">
+
+        <option value="">--Select color-- </option>
+        <option value="white">Antique White</option>
+        <option value="tomato">Tomato</option>
+        <option value="fuchsia">Fuchsia</option>
+    </select>
+    
+
+    <hr>
+
+
+
+</body>
+
+
+</html>
