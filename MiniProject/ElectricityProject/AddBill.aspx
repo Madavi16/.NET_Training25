@@ -64,6 +64,12 @@
         #gvBills tr:hover {
             background-color: #f1f1f1;
         }
+        #btnLogout {
+    float: right;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 
         
     </style>
@@ -91,6 +97,15 @@
 <body>
     <form id="form1" runat="server">
         
+        <asp:Button 
+    ID="btnLogout" 
+    runat="server" 
+    Text="Logout" 
+    BackColor="#d32f2f"
+    ForeColor="White"
+    Height="40px"
+    Width="120px" OnClick="btnLogout_Click" />
+
         <h2 style="font-weight:bold;">Add Electricity Bill</h2>
         <p style="font-weight:bold;">&nbsp;</p>
 

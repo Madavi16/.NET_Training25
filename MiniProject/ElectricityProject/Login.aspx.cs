@@ -13,7 +13,10 @@ namespace ElectricityProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                Session.Clear();
+            }
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
