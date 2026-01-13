@@ -7,23 +7,23 @@
       "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\views\\customer\\customersingermany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\views\\customer\\customersingermany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:views\\customer\\customersingermany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\views\\customer\\customerbyorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\views\\customer\\customerbyorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:views\\customer\\customerbyorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -46,31 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
@@ -80,7 +60,7 @@
               "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
               "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Customer\\Index.cshtml",
               "RelativeToolTip": "Views\\Customer\\Index.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAEwC8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-13T05:37:03.183Z",
               "EditorCaption": ""
@@ -95,8 +75,7 @@
               "RelativeToolTip": "App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T05:30:06.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T05:30:06.245Z"
             },
             {
               "$type": "Document",
@@ -108,8 +87,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T05:18:08.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T05:18:08.622Z"
             },
             {
               "$type": "Document",
@@ -121,8 +99,7 @@
               "RelativeToolTip": "Views\\Customer\\CustomerByOrder.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T05:15:01.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T05:15:01.693Z"
             },
             {
               "$type": "Document",
@@ -134,8 +111,7 @@
               "RelativeToolTip": "Views\\Customer\\CustomersInGermany.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T05:13:33.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T05:13:33.394Z"
             },
             {
               "$type": "Document",
@@ -147,8 +123,7 @@
               "RelativeToolTip": "Controllers\\CustomerController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T04:36:08.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T04:36:08.877Z"
             },
             {
               "$type": "Document",
@@ -185,6 +160,36 @@
               "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2026-01-13T04:25:30.56Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

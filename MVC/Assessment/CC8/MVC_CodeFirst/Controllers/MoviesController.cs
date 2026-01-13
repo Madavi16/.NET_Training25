@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using static MVC_CodeFirst.Models.Movie;
 
 namespace MVC_CodeFirst.Controllers
 {
@@ -62,9 +63,12 @@ namespace MVC_CodeFirst.Controllers
             return View(repo.GetByYear(year));
         }
 
-        public ActionResult ByDirector(string name)
+        public ActionResult ByDirector(string director)
         {
-            return View(repo.GetByDirector(name));
+            var allmovies = repo.GetByDirector(director);
+            return View(allmovies);
+
+           
         }
     }
 }

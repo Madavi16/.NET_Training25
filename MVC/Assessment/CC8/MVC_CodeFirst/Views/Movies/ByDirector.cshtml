@@ -5,19 +5,20 @@
 }
 <h2>Movies By Director</h2>
 
-<table class="table table-hover">
+<table class="table table-bordered">
     <tr>
-        <th>Movie</th>
+        <th>Movie Name</th>
+        <th>Director</th>
         <th>Release Date</th>
     </tr>
 
-    @foreach (var m in Model)
+    @foreach (var item in Model)
     {
         <tr>
-            <td>@m.MovieName</td>
-            <td>@m.DateOfRelease.ToShortDateString()</td>
+            <td>@item.MovieName</td>
+            <td>@item.DirectorName</td>
+            <td>@item.DateOfRelease.ToShortDateString()</td>
         </tr>
     }
 </table>
-
 

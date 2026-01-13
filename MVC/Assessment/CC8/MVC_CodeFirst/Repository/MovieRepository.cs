@@ -43,13 +43,16 @@ namespace MVC_CodeFirst.Repository
             return db.Movies
                      .Where(m => m.DateOfRelease.Year == year)
                      .ToList();
+
         }
 
         public IEnumerable<Movie> GetByDirector(string director)
         {
             return db.Movies
-                     .Where(m => m.DirectorName == director)
+                     .Where(m => m.DirectorName.Contains(director))
                      .ToList();
+
+
         }
 
         public void Save()
