@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\views\\movies\\bydirector.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:views\\movies\\bydirector.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\views\\movies\\byyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:views\\movies\\byyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\migrations\\202601130617274_initialcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:migrations\\202601130617274_initialcreatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_codefirst\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9BC7C320-2C0A-4ED8-8B3B-E3AF341E58D5}|MVC_CodeFirst.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "202601130617274_initialCreatedb.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Migrations\\202601130617274_initialCreatedb.cs",
+              "RelativeDocumentMoniker": "Migrations\\202601130617274_initialCreatedb.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Migrations\\202601130617274_initialCreatedb.cs",
+              "RelativeToolTip": "Migrations\\202601130617274_initialCreatedb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T06:17:42.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T06:17:00.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Repository\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IMovieRepository.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Repository\\IMovieRepository.cs",
+              "RelativeToolTip": "Repository\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T05:58:46.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T06:05:26.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ByDirector.cshtml",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Views\\Movies\\ByDirector.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movies\\ByDirector.cshtml",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Views\\Movies\\ByDirector.cshtml",
+              "RelativeToolTip": "Views\\Movies\\ByDirector.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T06:11:44.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ByYear.cshtml",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Views\\Movies\\ByYear.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movies\\ByYear.cshtml",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Views\\Movies\\ByYear.cshtml",
+              "RelativeToolTip": "Views\\Movies\\ByYear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T06:10:24.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Models\\MovieContext.cs",
+              "RelativeDocumentMoniker": "Models\\MovieContext.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Models\\MovieContext.cs",
+              "RelativeToolTip": "Models\\MovieContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T05:41:25.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Repository\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MovieRepository.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Repository\\MovieRepository.cs",
+              "RelativeToolTip": "Repository\\MovieRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T05:42:03.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T06:03:41.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T06:04:07.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T06:14:55.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T05:41:11.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_CodeFirst\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-13T05:43:49.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<MVC_CodeFirst.Models.Movie>
+@{
+    ViewBag.Title = "ByYear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ByYear</h2>
+
+<h2>Movies Released in Given Year</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Movie</th>
+        <th>Director</th>
+        <th>Release Date</th>
+    </tr>
+
+    @foreach (var m in Model)
+    {
+        <tr>
+            <td>@m.MovieName</td>
+            <td>@m.DirectorName</td>
+            <td>@m.DateOfRelease.ToShortDateString()</td>
+        </tr>
+    }
+</table>

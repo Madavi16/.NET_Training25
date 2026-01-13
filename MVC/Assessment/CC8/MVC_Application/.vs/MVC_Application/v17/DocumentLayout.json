@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\views\\customer\\customersingermany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:views\\customer\\customersingermany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\views\\customer\\customerbyorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:views\\customer\\customerbyorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|c:\\.net training_(p)\\trainingrepo\\assignments\\mvc\\assessment\\cc8\\mvc_application\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{0FE008D4-3F4C-47AC-9A6C-2075C3CCB0DB}|MVC_Application.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAEwC8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T05:37:03.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T05:30:06.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T05:18:08.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerByOrder.cshtml",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Customer\\CustomerByOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\CustomerByOrder.cshtml",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Customer\\CustomerByOrder.cshtml",
+              "RelativeToolTip": "Views\\Customer\\CustomerByOrder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T05:15:01.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersInGermany.cshtml",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Customer\\CustomersInGermany.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\CustomersInGermany.cshtml",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Views\\Customer\\CustomersInGermany.cshtml",
+              "RelativeToolTip": "Views\\Customer\\CustomersInGermany.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T05:13:33.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:36:08.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-13T04:58:52.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:57:52.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "C:\\.NET Training_(P)\\TrainingRepo\\Assignments\\MVC\\Assessment\\CC8\\MVC_Application\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-01-13T04:25:30.56Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
